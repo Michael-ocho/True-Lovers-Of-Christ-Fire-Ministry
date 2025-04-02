@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul{
+    /* position: sticky; */
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+    background-color: #986378;
+    color: white;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    line-height:40px;
+    height:40px ;
+}
+
+img, p{
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+#menuIcon{
+    @media screen and (min-width:700px){
+        display: none;
+    }
+}
+
+.churchName {
+    margin-right: auto;
+    margin-left: auto;
+    @media screen and (max-width:700px) {
+        /* margin-right:140px ; */
+        margin-left:0 ;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+        color: black;
+}
+
+li{
+    @media screen and (max-width:700px) {
+        display: none;
+    }
+}
+ 
+#last {
+    margin-right: 20px;
+}  
+
+.nav2 ul{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    justify-content: flex-start;
+    z-index: 999;
+    margin-left: 200px ;
+    
+    @media screen and (max-width:700px){
+        p,img{
+            display: none;
+        }
+        li{
+            display: flex;
+            margin-left: 10px;
+        }
+        a:hover{
+            background-color: white;
+            padding:5px;
+            
+        }
+    }
+    @media screen and (min-width:700px){
+        display: none;
+    }
+}
+
+/* testimonies styling */
+
+.testimonies{
+    background-image: url(/images/crossBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+    @media screen and (max-width: 700px){
+        height: 700px;
+    }
+
+    @media screen and (max-width:850px) and (min-width:701px){
+        height:600px ;
+    }
+}
+
+.testimonies h3{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+    
+    @media screen and (max-width:700px){
+        margin-left: 15px ;
+        margin-right:15px;
+        margin-bottom: 15px;
+    }
+}
+
+#testimonyimage{
+    margin-left: 40%;
+    @media screen and (max-width: 700px){
+        margin-left: 37px;
+    }
+
+    @media screen and (max-width:850px) and (min-width: 701px){
+        margin-left: 35%;
+    }
+}
+.testimonies h1{
+    padding-top: 40px;
+}
+
+.testimonies2{
+    background-image: url(/images/metal-grill-closeup-texture-music-speaker-colored-lighting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+    @media screen and (max-width: 700px){
+        height: 500px;
+    }
+}
+
+.testimonies2 h3{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+    
+    @media screen and (max-width:700px){
+        margin-left: 15px ;
+        margin-right:15px;
+        margin-bottom: 15px;
+    }
+}
+
+#testimonyimage{
+    margin-left: 40%;
+    @media screen and (max-width: 700px){
+        margin-left: 37px;
+    }
+
+    @media screen and (max-width:850px) and (min-width: 701px){
+        margin-left: 35%;
+    }
+}
+.testimonies2 h1{
+    padding-top: 40px;
+}
+
+/* footer styling */
+
+.bottom{
+    background-color: #986378;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    color: white;
+
+    @media screen and (max-width:700px){
+        display: block;
+    }
+}
+
+#bottomlovers{
+    margin-right: 190px;
+    margin-left: 20px;
+    padding-top: 10px;
+    @media screen and (max-width:700px){
+        margin-right:0 ;
+        margin-left: 18px;
+    }
+
+    @media screen and (max-width: 850px) and (min-width:701px){
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+
+    @media screen and (max-width: 1280px) and (min-width:851px){
+        margin-right: 160px;
+    }
+}
+
+.left{
+    width: 50%;
+    
+    @media screen and (max-width: 700px){
+        width: 100%;
+    }
+}
+
+#divIcons{
+    margin-left: 40px;
+}
+.right{
+    width: 50%;
+
+    @media screen and (max-width: 700px){
+        width: 100%;
+    }
+}
+
+#email{
+    margin-right: 470px;
+}
+
+#phone{
+    margin-right: 470px;
+
+    @media screen and (max-width:700px){
+        margin-right: 100px;
+    }
+
+    @media screen and (max-width:850px) and (min-width:701px){
+        margin-right: 145px;
+    }
+}
+
+#church2{
+    margin-right: 400px;
+
+    @media screen and (max-width:700px){
+        margin-right: 25px;
+    }
+
+    @media screen and (max-width:850px) and (min-width:701px){
+        margin-right: 75px;
+    }
+}
